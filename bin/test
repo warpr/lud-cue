@@ -1,0 +1,12 @@
+#!/usr/bin/zsh
+
+DIR="$0:A:h"
+cd "$DIR/.."
+
+pushd lib
+export NODE_PATH=`pwd`
+popd
+echo node path: $NODE_PATH
+
+node_modules/.bin/mocha --harmony --ui tdd --reporter spec
+

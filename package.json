@@ -4,7 +4,6 @@
     "description": "lûd cue - a .cue file parsing library",
     "main": "lib/cue.js",
     "scripts": {
-        "precommit": "lint-staged",
         "test": "bin/test"
     },
     "lint-staged": {
@@ -28,11 +27,13 @@
         }
     },
     "devDependencies": {
+        "chai": "^4.2.0",
         "husky": "^3.1.0",
         "import-sort-cli": "^6.0.0",
         "import-sort-parser-babylon": "^6.0.0",
         "import-sort-style-module": "^6.0.0",
         "lint-staged": "^9.5.0",
+        "mocha": "^6.2.2",
         "prettier": "^1.19.1"
     }
 }
