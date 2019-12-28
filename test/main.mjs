@@ -6,7 +6,7 @@
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
  */
 
-import { Track } from '../lib/tmp.mjs';
+import { Track } from '../lib/types.mjs';
 import chai from 'chai';
 
 const assert = chai.assert;
