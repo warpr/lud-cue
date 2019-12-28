@@ -6,7 +6,10 @@
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
  */
 
-const assert = require('chai').assert;
+import { Track } from '../lib/tmp.mjs';
+import chai from 'chai';
+
+const assert = chai.assert;
 
 const tests = [
     // plain CD, test sub tracks
@@ -31,8 +34,12 @@ const tests = [
 
 suite('Main', () => {
     suite('Sub test', () => {
-        test('one should equal one', () => {
-            assert.equal(1, 1);
+        test('valid track does not throw', () => {
+            assert.doesNotThrow(() => Track.check({ name: 'Ponle' }));
+        });
+
+        test('invalid track throws', () => {
+            assert.throws(() => Track.check({ title: 'Ponle' }));
         });
     });
 });

@@ -33,7 +33,10 @@
         "import-sort-parser-babylon": "^6.0.0",
         "import-sort-style-module": "^6.0.0",
         "lint-staged": "^9.5.0",
-        "mocha": "^6.2.2",
+        "mocha": "github:giltayar/mocha#node-esm-support",
         "prettier": "^1.19.1"
+    },
+    "dependencies": {
+        "runtypes": "^4.0.3"
     }
 }
