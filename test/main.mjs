@@ -6,7 +6,8 @@
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
  */
 
-import { Track } from '../lib/types.mjs';
+import { Artist, File, Mbid, Track } from '../lib/types.mjs';
+
 import chai from 'chai';
 
 const assert = chai.assert;
@@ -32,14 +33,54 @@ const tests = [
   - for example: lamb - fear of fours
 */
 
+const artist = {
+    name: 'Lijkenpikkers',
+    mbid: 'https://musicbrainz.org/artist/2604d889-f1ef-48c2-b6ac-d8818cec246d#_',
+};
+
+const file = {
+    name: 'disc01a.m4a',
+    groups: [
+        {
+            title: null,
+            tracks: [],
+        },
+    ],
+};
+
+file.groups[0].tracks = [
+    {
+        pos: 1,
+        title: 'Heb je al gehoord',
+        artist: artist,
+        file: file,
+        index: 0,
+        duration: null,
+        mbid: null,
+    },
+    {
+        pos: 2,
+        title: 'Op je hoeden',
+        artist: artist,
+        file: file,
+        index: 120000,
+        duration: null,
+        mbid: 'https://musicbrainz.org/track/4000d35e-d6f1-3d83-a48a-78179b651f2c#_',
+    },
+];
+
 suite('Main', () => {
     suite('Sub test', () => {
+        test('valid artist', () => {
+            assert.doesNotThrow(() => Artist.check(artist));
+        });
+
         test('valid track does not throw', () => {
-            assert.doesNotThrow(() => Track.check({ name: 'Ponle' }));
+            assert.doesNotThrow(() => File.check(file));
         });
 
         test('invalid track throws', () => {
-            assert.throws(() => Track.check({ title: 'Ponle' }));
+            assert.throws(() => Track.check({ pos: 1, title: 'Ponle' }));
         });
     });
 });
