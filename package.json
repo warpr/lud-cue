@@ -32,8 +32,10 @@
         "import-sort-cli": "^6.0.0",
         "import-sort-parser-babylon": "^6.0.0",
         "import-sort-style-module": "^6.0.0",
+        "json-stable-stringify": "^1.0.1",
         "lint-staged": "^9.5.0",
         "mocha": "github:giltayar/mocha#node-esm-support",
+        "nodemon": "^2.0.2",
         "prettier": "^1.19.1"
     },
     "dependencies": {

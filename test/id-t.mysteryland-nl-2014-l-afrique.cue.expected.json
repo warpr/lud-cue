@@ -1,0 +1,139 @@
+{
+  "artist": "ID&T",
+  "comments": [
+    "lûd cue v1"
+  ],
+  "duration": 31105.384488,
+  "files": [
+    {
+      "filename": "disc01.01.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "Cincity",
+          "duration": null,
+          "pos": 1,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    },
+    {
+      "filename": "disc01.02.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "Madison Groove",
+          "duration": null,
+          "pos": 2,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    },
+    {
+      "filename": "disc01.03.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "Morelasoul",
+          "duration": null,
+          "pos": 3,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    },
+    {
+      "filename": "disc01.04.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "Soulroots",
+          "duration": null,
+          "pos": 4,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    },
+    {
+      "filename": "disc01.05.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "R-Jay",
+          "duration": null,
+          "pos": 5,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    },
+    {
+      "filename": "disc01.06.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "Rico Rosa",
+          "duration": null,
+          "pos": 6,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    },
+    {
+      "filename": "disc01.07.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "Pascal Morais",
+          "duration": null,
+          "pos": 7,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    },
+    {
+      "filename": "disc01.08.mp3",
+      "format": "WAVE",
+      "tracks": [
+        {
+          "artist": "Rancido",
+          "duration": null,
+          "pos": 8,
+          "start": {
+            "minutes-seconds-frames": "00:00:00",
+            "seconds": 0
+          },
+          "title": "L'Afrique"
+        }
+      ]
+    }
+  ],
+  "mbid": "12d5a9d5-aa95-4f25-aca9-e482b616a3ca",
+  "title": "Mysteryland NL 2014: L'Afrique"
+}

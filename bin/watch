@@ -1,0 +1,6 @@
+#!/usr/bin/zsh
+
+DIR="$0:A:h"
+cd "$DIR/.."
+
+node_modules/.bin/nodemon --wach lib test --ext js,mjs,json --exec bin/test

@@ -6,81 +6,91 @@
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
  */
 
+import * as log from '../lib/log.mjs';
+
 import { Artist, File, Mbid, Track } from '../lib/types.mjs';
+import { addTrackLengths, framesToSeconds, parseCue, removeQuotes } from '../lib/cue.mjs';
 
 import chai from 'chai';
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+import fs from 'fs';
+import stringify from 'json-stable-stringify';
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
 const assert = chai.assert;
 
-const tests = [
-    // plain CD, test sub tracks
-    'pc-and-strictly-kev.blechsdottir.cue',
-    // plain CD, test sub tracks with an overarching title
-    'enigma.mcmxc-ad.cue',
-    // vinyl rip, the cue file is the entire disc, but each side is 1 file
-    'lijkenpikkers.mag-dat.cue',
-    // longer than is possible with a physical CD, each track is 1 file
-    'id-t.mysteryland-nl-2014-l-afrique.cue',
-];
+log.setVerbose(false);
 
-/*
-  FIXME: following tests still to be added
+function testCue() {
+    const givenFile = __dirname + '/' + this.test.title;
+    const expectedFile = givenFile + '.expected.json';
 
-  plain CD, with track introductions in the pre-gaps
-  - for example: paddy reilly live
+    // suffix with ~, so it's ignored by watch and git.
+    const outputFile = givenFile + '.actual.json~';
 
-  plain CD, with a "secret" track in the pre-gap of the first track
-  - for example: lamb - fear of fours
-*/
+    const body = fs.readFileSync(givenFile, { encoding: 'utf-8' });
+    const disc = parseCue(body);
 
-const artist = {
-    name: 'Lijkenpikkers',
-    mbid: 'https://musicbrainz.org/artist/2604d889-f1ef-48c2-b6ac-d8818cec246d#_',
-};
+    fs.writeFileSync(outputFile, stringify(disc, { space: 2 }), { encoding: 'utf-8' });
 
-const file = {
-    name: 'disc01a.m4a',
-    groups: [
-        {
-            title: null,
-            tracks: [],
-        },
-    ],
-};
-
-file.groups[0].tracks = [
-    {
-        pos: 1,
-        title: 'Heb je al gehoord',
-        artist: artist,
-        file: file,
-        index: 0,
-        duration: null,
-        mbid: null,
-    },
-    {
-        pos: 2,
-        title: 'Op je hoeden',
-        artist: artist,
-        file: file,
-        index: 120000,
-        duration: null,
-        mbid: 'https://musicbrainz.org/track/4000d35e-d6f1-3d83-a48a-78179b651f2c#_',
-    },
-];
+    const expected = fs.readFileSync(expectedFile, { encoding: 'utf-8' });
+    assert.deepEqual(disc, JSON.parse(expected));
+}
 
 suite('Main', () => {
-    suite('Sub test', () => {
-        test('valid artist', () => {
-            assert.doesNotThrow(() => Artist.check(artist));
+    suite('Utility functions', () => {
+        test('framesToSeconds', () => {
+            assert.closeTo(framesToSeconds('1:59:70'), 119.93333, 0.00001);
+            assert.equal(framesToSeconds('2:00:00'), 120);
         });
 
-        test('valid track does not throw', () => {
-            assert.doesNotThrow(() => File.check(file));
-        });
+        test('removeQuotes', () => {
+            assert.equal(removeQuotes('"foo"'), 'foo');
+            assert.equal(removeQuotes("'foo'"), 'foo');
+            assert.equal(removeQuotes('"foo\''), '"foo\'');
+            assert.equal(removeQuotes(' "foo" '), ' "foo" ');
 
-        test('invalid track throws', () => {
-            assert.throws(() => Track.check({ pos: 1, title: 'Ponle' }));
+            assert.throws(() => removeQuotes(23));
+            assert.throws(() => removeQuotes());
         });
     });
+
+    suite('Cue files', () => {
+        // plain CD, test sub tracks
+        test('pc-and-strictly-kev.blechsdottir.cue', testCue);
+
+        // plain CD, test sub tracks with an overarching title
+        test('enigma.mcmxc-ad.cue', testCue);
+
+        // vinyl rip, the cue file is the entire disc, but each side is 1 file
+        test('lijkenpikkers.mag-dat.cue', testCue);
+
+        // longer than is possible with a physical CD, each track is 1 file
+        test('id-t.mysteryland-nl-2014-l-afrique.cue', testCue);
+
+        /*
+          FIXME: following tests still to be added
+
+          plain CD, with track introductions in the pre-gaps
+          - for example: paddy reilly live
+
+          plain CD, with a "secret" track in the pre-gap of the first track
+          - for example: lamb - fear of fours
+        */
+    });
+
+    // suite('Sub test', () => {
+    //     test('valid artist', () => {
+    //         assert.doesNotThrow(() => Artist.check(artist));
+    //     });
+
+    //     test('valid track does not throw', () => {
+    //         assert.doesNotThrow(() => File.check(file));
+    //     });
+
+    //     test('invalid track throws', () => {
+    //         assert.throws(() => Track.check({ pos: 1, title: 'Ponle' }));
+    //     });
+    // });
 });
