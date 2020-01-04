@@ -1,88 +1,132 @@
 {
-  "artist": "Enigma",
-  "barcode": "077778622420",
-  "comments": [
-    "lûd cue v1"
-  ],
-  "duration": 2420.824,
-  "files": [
-    {
-      "filename": "disc1.m4a",
-      "format": "WAVE",
-      "tracks": [
+    "artist": "Enigma",
+    "barcode": "077778622420",
+    "comments": ["lûd cue v1"],
+    "duration": 2420.824,
+    "files": [
         {
-          "artist": "Enigma",
-          "duration": 141.8,
-          "pos": 1,
-          "start": {
-            "minutes-seconds-frames": "0:00:00",
-            "seconds": 0
-          },
-          "title": "The Voice of Enigma"
-        },
-        {
-          "artist": "Enigma",
-          "duration": 703.9333333333334,
-          "pos": 2,
-          "start": {
-            "minutes-seconds-frames": "2:21:60",
-            "seconds": 141.8
-          },
-          "title": "Principles of Lust: Sadeness / Find Love / Sadeness (reprise)"
-        },
-        {
-          "artist": "Enigma",
-          "duration": 267.86666666666656,
-          "pos": 3,
-          "start": {
-            "minutes-seconds-frames": "14:05:55",
-            "seconds": 845.7333333333333
-          },
-          "title": "Callas Went Away"
-        },
-        {
-          "artist": "Enigma",
-          "duration": 303.42666666666673,
-          "pos": 4,
-          "start": {
-            "minutes-seconds-frames": "18:33:45",
-            "seconds": 1113.6
-          },
-          "title": "Mea Culpa"
-        },
-        {
-          "artist": "Enigma",
-          "duration": 99.97333333333336,
-          "pos": 5,
-          "start": {
-            "minutes-seconds-frames": "23:37:02",
-            "seconds": 1417.0266666666666
-          },
-          "title": "The Voice & The Snake"
-        },
-        {
-          "artist": "Enigma",
-          "duration": 271.49333333333334,
-          "pos": 6,
-          "start": {
-            "minutes-seconds-frames": "25:17:00",
-            "seconds": 1517
-          },
-          "title": "Knocking on Forbidden Doors"
-        },
-        {
-          "artist": "Enigma",
-          "duration": 632.3306666666667,
-          "pos": 7,
-          "start": {
-            "minutes-seconds-frames": "29:48:37",
-            "seconds": 1788.4933333333333
-          },
-          "title": "Back to the Rivers of Belief: Way to Eternity / Hallelujah / The Rivers of Belief"
+            "filename": "disc1.m4a",
+            "format": "WAVE",
+            "tracks": [
+                {
+                    "artist": "Enigma",
+                    "duration": 141.8,
+                    "pos": 1,
+                    "start": {
+                        "minutes-seconds-frames": "0:00:00",
+                        "seconds": 0
+                    },
+                    "title": "The Voice of Enigma"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 248.93333333333334,
+                    "pos": 2,
+                    "start": {
+                        "minutes-seconds-frames": "2:21:60",
+                        "seconds": 141.8
+                    },
+                    "groupTitle": "Principles of Lust",
+                    "title": "Sadeness"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 285.36,
+                    "pos": 2,
+                    "start": {
+                        "minutes-seconds-frames": "6:30:55",
+                        "seconds": 390.73333333333335
+                    },
+                    "groupTitle": "Principles of Lust",
+                    "title": "Find Love"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 169.64,
+                    "pos": 2,
+                    "start": {
+                        "minutes-seconds-frames": "11:16:07",
+                        "seconds": 676.0933333333334
+                    },
+                    "groupTitle": "Principles of Lust",
+                    "title": "Sadeness (reprise)"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 267.86666666666656,
+                    "pos": 3,
+                    "start": {
+                        "minutes-seconds-frames": "14:05:55",
+                        "seconds": 845.7333333333333
+                    },
+                    "title": "Callas Went Away"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 303.42666666666673,
+                    "pos": 4,
+                    "start": {
+                        "minutes-seconds-frames": "18:33:45",
+                        "seconds": 1113.6
+                    },
+                    "title": "Mea Culpa"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 99.97333333333336,
+                    "pos": 5,
+                    "start": {
+                        "minutes-seconds-frames": "23:37:02",
+                        "seconds": 1417.0266666666666
+                    },
+                    "title": "The Voice & The Snake"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 271.49333333333334,
+                    "pos": 6,
+                    "start": {
+                        "minutes-seconds-frames": "25:17:00",
+                        "seconds": 1517
+                    },
+                    "title": "Knocking on Forbidden Doors"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 141.03999999999996,
+                    "pos": 7,
+                    "start": {
+                        "minutes-seconds-frames": "29:48:37",
+                        "seconds": 1788.4933333333333
+                    },
+                    "groupTitle": "Back to the Rivers of Belief",
+                    "title": "Way to Eternity"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 245.4666666666667,
+                    "pos": 7,
+                    "start": {
+                        "minutes-seconds-frames": "32:09:40",
+                        "seconds": 1929.5333333333333
+                    },
+                    "groupTitle": "Back to the Rivers of Belief",
+                    "title": "Hallelujah"
+                },
+                {
+                    "artist": "Enigma",
+                    "duration": 245.82400000000007,
+                    "pos": 7,
+                    "start": {
+                        "minutes-seconds-frames": "36:15:00",
+                        "seconds": 2175
+                    },
+                    "groupTitle": "Back to the Rivers of Belief",
+                    "title": "The Rivers of Belief"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "mbid": "c84d5361-750b-3d42-887c-13e315cd85f1",
-  "title": "MCMXC a.D."
+    ],
+    "mbid": "c84d5361-750b-3d42-887c-13e315cd85f1",
+    "title": "MCMXC a.D."
 }

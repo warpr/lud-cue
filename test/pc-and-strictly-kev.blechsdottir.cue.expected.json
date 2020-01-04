@@ -1,247 +1,315 @@
 {
-  "artist": "PC & Strictly Kev",
-  "comments": [
-    "mbid-to-cue v1"
-  ],
-  "duration": 4261.29,
-  "files": [
-    {
-      "filename": "disc1.m4a",
-      "format": "WAVE",
-      "tracks": [
+    "artist": "PC & Strictly Kev",
+    "comments": ["mbid-to-cue v1"],
+    "duration": 4261.29,
+    "files": [
         {
-          "artist": "Autechre / Disjecta",
-          "duration": 145.86666666666665,
-          "pos": 1,
-          "start": {
-            "minutes-seconds-frames": "00:00:32",
-            "seconds": 0.4266666666666667
-          },
-          "title": "Lost / Kracht"
-        },
-        {
-          "artist": "Autechre",
-          "duration": 120.17333333333332,
-          "pos": 2,
-          "start": {
-            "minutes-seconds-frames": "02:26:22",
-            "seconds": 146.29333333333332
-          },
-          "title": "Rotar / Flutter"
-        },
-        {
-          "artist": "LFO",
-          "duration": 113.62666666666667,
-          "pos": 3,
-          "start": {
-            "minutes-seconds-frames": "04:26:35",
-            "seconds": 266.46666666666664
-          },
-          "title": "Them"
-        },
-        {
-          "artist": "Plaid",
-          "duration": 225.60000000000008,
-          "pos": 4,
-          "start": {
-            "minutes-seconds-frames": "06:20:07",
-            "seconds": 380.0933333333333
-          },
-          "title": "Abla Eedio"
-        },
-        {
-          "artist": "Aphex Twin",
-          "duration": 210.2399999999999,
-          "pos": 5,
-          "start": {
-            "minutes-seconds-frames": "10:05:52",
-            "seconds": 605.6933333333334
-          },
-          "title": "Ventolin Plain-An-Gwarry"
-        },
-        {
-          "artist": "Autechre",
-          "duration": 185.33333333333337,
-          "pos": 6,
-          "start": {
-            "minutes-seconds-frames": "13:35:70",
-            "seconds": 815.9333333333333
-          },
-          "title": "Rsdio"
-        },
-        {
-          "artist": "Jake Slazenger",
-          "duration": 188.69333333333338,
-          "pos": 7,
-          "start": {
-            "minutes-seconds-frames": "16:41:20",
-            "seconds": 1001.2666666666667
-          },
-          "title": "Nautilus"
-        },
-        {
-          "artist": "Nightmares on Wax / Aphex Twin",
-          "duration": 218.66666666666674,
-          "pos": 8,
-          "start": {
-            "minutes-seconds-frames": "19:49:72",
-            "seconds": 1189.96
-          },
-          "title": "Dredd Overboard (DJ Food Lifesaver mix) / Cow Cud Is a Twin"
-        },
-        {
-          "artist": "AFX",
-          "duration": 173.10666666666657,
-          "pos": 9,
-          "start": {
-            "minutes-seconds-frames": "23:28:47",
-            "seconds": 1408.6266666666668
-          },
-          "title": "Laughable Butane Bob"
-        },
-        {
-          "artist": "Freeform",
-          "duration": 184.86666666666656,
-          "pos": 10,
-          "start": {
-            "minutes-seconds-frames": "26:21:55",
-            "seconds": 1581.7333333333333
-          },
-          "title": "Brieflei"
-        },
-        {
-          "artist": "The Black Dog",
-          "duration": 86.22666666666669,
-          "pos": 11,
-          "start": {
-            "minutes-seconds-frames": "29:26:45",
-            "seconds": 1766.6
-          },
-          "title": "Chase the Manhattan"
-        },
-        {
-          "artist": "B12",
-          "duration": 241.0400000000002,
-          "pos": 12,
-          "start": {
-            "minutes-seconds-frames": "30:52:62",
-            "seconds": 1852.8266666666666
-          },
-          "title": "Infinite Lites (Primitives mix)"
-        },
-        {
-          "artist": "Elecktroids / DJ Mink / Nightmares on Wax",
-          "duration": 169.42666666666673,
-          "pos": 13,
-          "start": {
-            "minutes-seconds-frames": "34:53:65",
-            "seconds": 2093.866666666667
-          },
-          "title": "Midnight Drive / Hey! Hey! Can U Relate? / Dextrous"
-        },
-        {
-          "artist": "Jimi Tenor / Aphex Twin",
-          "duration": 221.8399999999997,
-          "pos": 14,
-          "start": {
-            "minutes-seconds-frames": "37:43:22",
-            "seconds": 2263.2933333333335
-          },
-          "title": "Downtown / SAW:II CD2.4"
-        },
-        {
-          "artist": "Nightmares on Wax",
-          "duration": 250.82666666666682,
-          "pos": 15,
-          "start": {
-            "minutes-seconds-frames": "41:25:10",
-            "seconds": 2485.133333333333
-          },
-          "title": "What I'm Feelin' (Rae + Christian mix)"
-        },
-        {
-          "artist": "LFO / Mira Calix",
-          "duration": 203.57333333333327,
-          "pos": 16,
-          "start": {
-            "minutes-seconds-frames": "45:35:72",
-            "seconds": 2735.96
-          },
-          "title": "Shove Piggy Shove / Humba"
-        },
-        {
-          "artist": "Red Snapper",
-          "duration": 204.89333333333343,
-          "pos": 17,
-          "start": {
-            "minutes-seconds-frames": "48:59:40",
-            "seconds": 2939.5333333333333
-          },
-          "title": "The Last One"
-        },
-        {
-          "artist": "Aphex Twin / DJ Food",
-          "duration": 231.5333333333333,
-          "pos": 18,
-          "start": {
-            "minutes-seconds-frames": "52:24:32",
-            "seconds": 3144.4266666666667
-          },
-          "title": "SAW:II CD2.6 / Sexy Bit Courtesy of NinjaTune"
-        },
-        {
-          "artist": "Nightmares on Wax",
-          "duration": 95.73333333333312,
-          "pos": 19,
-          "start": {
-            "minutes-seconds-frames": "56:15:72",
-            "seconds": 3375.96
-          },
-          "title": "Gambia Via Vagator Beach (Mr. Scruff mix)"
-        },
-        {
-          "artist": "Squarepusher",
-          "duration": 206.03999999999996,
-          "pos": 20,
-          "start": {
-            "minutes-seconds-frames": "57:51:52",
-            "seconds": 3471.693333333333
-          },
-          "title": "Problem Child"
-        },
-        {
-          "artist": "Mike Ink",
-          "duration": 236.9333333333334,
-          "pos": 21,
-          "start": {
-            "minutes-seconds-frames": "61:17:55",
-            "seconds": 3677.733333333333
-          },
-          "title": "Paroles"
-        },
-        {
-          "artist": "Aphex Twin",
-          "duration": 165.33333333333348,
-          "pos": 22,
-          "start": {
-            "minutes-seconds-frames": "65:14:50",
-            "seconds": 3914.6666666666665
-          },
-          "title": "Ventolin (Wheeze mix)"
-        },
-        {
-          "artist": "Jake Slazenger",
-          "duration": 181.28999999999996,
-          "pos": 23,
-          "start": {
-            "minutes-seconds-frames": "68:00:00",
-            "seconds": 4080
-          },
-          "title": "Slowdance"
+            "filename": "disc1.m4a",
+            "format": "WAVE",
+            "tracks": [
+                {
+                    "artist": "Autechre / Disjecta",
+                    "duration": 145.86666666666665,
+                    "pos": 1,
+                    "start": {
+                        "minutes-seconds-frames": "00:00:32",
+                        "seconds": 0.4266666666666667
+                    },
+                    "title": "Lost / Kracht"
+                },
+                {
+                    "artist": "Autechre",
+                    "duration": 60.50666666666669,
+                    "pos": 2,
+                    "start": {
+                        "minutes-seconds-frames": "02:26:22",
+                        "seconds": 146.29333333333332
+                    },
+                    "title": "Rotar"
+                },
+                {
+                    "artist": "Autechre",
+                    "duration": 59.66666666666663,
+                    "pos": 2,
+                    "start": {
+                        "minutes-seconds-frames": "03:26:60",
+                        "seconds": 206.8
+                    },
+                    "title": "Flutter"
+                },
+                {
+                    "artist": "LFO",
+                    "duration": 113.62666666666667,
+                    "pos": 3,
+                    "start": {
+                        "minutes-seconds-frames": "04:26:35",
+                        "seconds": 266.46666666666664
+                    },
+                    "title": "Them"
+                },
+                {
+                    "artist": "Plaid",
+                    "duration": 225.60000000000008,
+                    "pos": 4,
+                    "start": {
+                        "minutes-seconds-frames": "06:20:07",
+                        "seconds": 380.0933333333333
+                    },
+                    "title": "Abla Eedio"
+                },
+                {
+                    "artist": "Aphex Twin",
+                    "duration": 210.2399999999999,
+                    "pos": 5,
+                    "start": {
+                        "minutes-seconds-frames": "10:05:52",
+                        "seconds": 605.6933333333334
+                    },
+                    "title": "Ventolin Plain-An-Gwarry"
+                },
+                {
+                    "artist": "Autechre",
+                    "duration": 185.33333333333337,
+                    "pos": 6,
+                    "start": {
+                        "minutes-seconds-frames": "13:35:70",
+                        "seconds": 815.9333333333333
+                    },
+                    "title": "Rsdio"
+                },
+                {
+                    "artist": "Jake Slazenger",
+                    "duration": 188.69333333333338,
+                    "pos": 7,
+                    "start": {
+                        "minutes-seconds-frames": "16:41:20",
+                        "seconds": 1001.2666666666667
+                    },
+                    "title": "Nautilus"
+                },
+                {
+                    "artist": "Nightmares on Wax",
+                    "duration": 125.77333333333331,
+                    "pos": 8,
+                    "start": {
+                        "minutes-seconds-frames": "19:49:72",
+                        "seconds": 1189.96
+                    },
+                    "title": "Dredd Overboard (DJ Food Lifesaver mix)"
+                },
+                {
+                    "artist": "Aphex Twin",
+                    "duration": 92.89333333333343,
+                    "pos": 8,
+                    "start": {
+                        "minutes-seconds-frames": "21:55:55",
+                        "seconds": 1315.7333333333333
+                    },
+                    "title": "Cow Cud Is a Twin"
+                },
+                {
+                    "artist": "AFX",
+                    "duration": 173.10666666666657,
+                    "pos": 9,
+                    "start": {
+                        "minutes-seconds-frames": "23:28:47",
+                        "seconds": 1408.6266666666668
+                    },
+                    "title": "Laughable Butane Bob"
+                },
+                {
+                    "artist": "Freeform",
+                    "duration": 184.86666666666656,
+                    "pos": 10,
+                    "start": {
+                        "minutes-seconds-frames": "26:21:55",
+                        "seconds": 1581.7333333333333
+                    },
+                    "title": "Brieflei"
+                },
+                {
+                    "artist": "The Black Dog",
+                    "duration": 86.22666666666669,
+                    "pos": 11,
+                    "start": {
+                        "minutes-seconds-frames": "29:26:45",
+                        "seconds": 1766.6
+                    },
+                    "title": "Chase the Manhattan"
+                },
+                {
+                    "artist": "B12",
+                    "duration": 241.0400000000002,
+                    "pos": 12,
+                    "start": {
+                        "minutes-seconds-frames": "30:52:62",
+                        "seconds": 1852.8266666666666
+                    },
+                    "title": "Infinite Lites (Primitives mix)"
+                },
+                {
+                    "artist": "Elecktroids",
+                    "duration": 100.49333333333334,
+                    "pos": 13,
+                    "start": {
+                        "minutes-seconds-frames": "34:53:65",
+                        "seconds": 2093.866666666667
+                    },
+                    "title": "Midnight Drive"
+                },
+                {
+                    "artist": "DJ Mink",
+                    "duration": 7.9066666666667516,
+                    "pos": 13,
+                    "start": {
+                        "minutes-seconds-frames": "36:34:27",
+                        "seconds": 2194.36
+                    },
+                    "title": "Hey! Hey! Can U Relate?"
+                },
+                {
+                    "artist": "Nightmares on Wax",
+                    "duration": 61.02666666666664,
+                    "pos": 13,
+                    "start": {
+                        "minutes-seconds-frames": "36:42:20",
+                        "seconds": 2202.266666666667
+                    },
+                    "title": "Dextrous"
+                },
+                {
+                    "artist": "Jimi Tenor",
+                    "duration": 194.73333333333312,
+                    "pos": 14,
+                    "start": {
+                        "minutes-seconds-frames": "37:43:22",
+                        "seconds": 2263.2933333333335
+                    },
+                    "title": "Downtown"
+                },
+                {
+                    "artist": "Aphex Twin",
+                    "duration": 27.10666666666657,
+                    "pos": 14,
+                    "start": {
+                        "minutes-seconds-frames": "40:58:02",
+                        "seconds": 2458.0266666666666
+                    },
+                    "title": "SAW:II CD2.4"
+                },
+                {
+                    "artist": "Nightmares on Wax",
+                    "duration": 250.82666666666682,
+                    "pos": 15,
+                    "start": {
+                        "minutes-seconds-frames": "41:25:10",
+                        "seconds": 2485.133333333333
+                    },
+                    "title": "What I'm Feelin' (Rae + Christian mix)"
+                },
+                {
+                    "artist": "LFO",
+                    "duration": 129.8666666666668,
+                    "pos": 16,
+                    "start": {
+                        "minutes-seconds-frames": "45:35:72",
+                        "seconds": 2735.96
+                    },
+                    "title": "Shove Piggy Shove"
+                },
+                {
+                    "artist": "Mira Calix",
+                    "duration": 73.70666666666648,
+                    "pos": 16,
+                    "start": {
+                        "minutes-seconds-frames": "47:45:62",
+                        "seconds": 2865.826666666667
+                    },
+                    "title": "Humba"
+                },
+                {
+                    "artist": "Red Snapper",
+                    "duration": 204.89333333333343,
+                    "pos": 17,
+                    "start": {
+                        "minutes-seconds-frames": "48:59:40",
+                        "seconds": 2939.5333333333333
+                    },
+                    "title": "The Last One"
+                },
+                {
+                    "artist": "Aphex Twin / DJ Food",
+                    "duration": 231.5333333333333,
+                    "pos": 18,
+                    "start": {
+                        "minutes-seconds-frames": "52:24:32",
+                        "seconds": 3144.4266666666667
+                    },
+                    "title": "SAW:II CD2.6 / Sexy Bit Courtesy of NinjaTune"
+                },
+                {
+                    "artist": "Nightmares on Wax",
+                    "duration": 95.73333333333312,
+                    "pos": 19,
+                    "start": {
+                        "minutes-seconds-frames": "56:15:72",
+                        "seconds": 3375.96
+                    },
+                    "title": "Gambia Via Vagator Beach (Mr. Scruff mix)"
+                },
+                {
+                    "artist": "Squarepusher",
+                    "duration": 206.03999999999996,
+                    "pos": 20,
+                    "start": {
+                        "minutes-seconds-frames": "57:51:52",
+                        "seconds": 3471.693333333333
+                    },
+                    "title": "Problem Child"
+                },
+                {
+                    "artist": "Mike Ink",
+                    "duration": 236.9333333333334,
+                    "pos": 21,
+                    "start": {
+                        "minutes-seconds-frames": "61:17:55",
+                        "seconds": 3677.733333333333
+                    },
+                    "title": "Paroles"
+                },
+                {
+                    "artist": "Aphex Twin",
+                    "duration": 165.33333333333348,
+                    "pos": 22,
+                    "start": {
+                        "minutes-seconds-frames": "65:14:50",
+                        "seconds": 3914.6666666666665
+                    },
+                    "title": "Ventolin (Wheeze mix)"
+                },
+                {
+                    "artist": "Jake Slazenger",
+                    "duration": 173.0666666666666,
+                    "pos": 23,
+                    "start": {
+                        "minutes-seconds-frames": "68:00:00",
+                        "seconds": 4080
+                    },
+                    "title": "Slowdance"
+                },
+                {
+                    "artist": "Jake Slazenger",
+                    "duration": 8.223333333333358,
+                    "pos": 23,
+                    "start": {
+                        "minutes-seconds-frames": "70:53:05",
+                        "seconds": 4253.066666666667
+                    },
+                    "title": "Slowdance"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "mbid": "da8ebcc3-3da5-4cc8-be41-9e82ba17bea6",
-  "title": "Blechsdöttir: The Nexus Phase"
+    ],
+    "mbid": "da8ebcc3-3da5-4cc8-be41-9e82ba17bea6",
+    "title": "Blechsdöttir: The Nexus Phase"
 }

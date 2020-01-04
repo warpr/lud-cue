@@ -7,6 +7,10 @@
         "test": "bin/test"
     },
     "lint-staged": {
+        "*.json": [
+            "prettier --write",
+            "git add"
+        ],
         "*.js": [
             "import-sort --write",
             "prettier --write",
