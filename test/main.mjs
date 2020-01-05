@@ -9,7 +9,13 @@
 import * as log from '../lib/log.mjs';
 
 import { Artist, File, Mbid, Track } from '../lib/types.mjs';
-import { addTrackLengths, framesToSeconds, parseCue, removeQuotes } from '../lib/cue.mjs';
+import {
+    addTrackLengths,
+    framesToSeconds,
+    normalizeMbid,
+    parseCue,
+    removeQuotes,
+} from '../lib/cue.mjs';
 
 import chai from 'chai';
 import { dirname } from 'path';
@@ -53,6 +59,56 @@ suite('Main', () => {
 
             assert.throws(() => removeQuotes(23));
             assert.throws(() => removeQuotes());
+        });
+
+        test('normalizeMbid', () => {
+            const expected =
+                'https://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212#_';
+            let actual;
+
+            actual = normalizeMbid(
+                'release',
+                'https://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212#_',
+            );
+            assert.equal(actual, expected);
+
+            actual = normalizeMbid(
+                'release',
+                'https://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212',
+            );
+            assert.equal(actual, expected);
+
+            actual = normalizeMbid(
+                'release',
+                'http://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212',
+            );
+            assert.equal(actual, expected);
+
+            actual = normalizeMbid('release', '0055dbfb-9bf5-45d3-9c11-069128ee9212');
+            assert.equal(actual, expected);
+
+            actual = normalizeMbid(
+                'release-group',
+                'http://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212',
+            );
+            assert.equal(actual, expected);
+
+            actual = normalizeMbid(
+                'artist',
+                'http://musicbrainz.org/release/0055dbfb-9bf5-45d3-9c11-069128ee9212',
+            );
+            assert.equal(actual, expected);
+
+            const expected2 =
+                'https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8#_';
+            actual = normalizeMbid(
+                'release-group',
+                'https://musicbrainz.org/release-group/0b8e14e1-d44d-3770-8617-5c6137a444a8',
+            );
+            assert.equal(actual, expected2);
+
+            actual = normalizeMbid('release-group', '0b8e14e1-d44d-3770-8617-5c6137a444a8');
+            assert.equal(actual, expected2);
         });
     });
 
