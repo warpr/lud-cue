@@ -11,7 +11,12 @@
                     "artist": "Autechre / Disjecta",
                     "duration": 145.86666666666665,
                     "pos": 1,
+                    "pregap": {
+                        "minutes-seconds-frames": "00:00:00",
+                        "seconds": 0
+                    },
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "00:00:32",
                         "seconds": 0.4266666666666667
                     },
@@ -22,6 +27,7 @@
                     "duration": 60.50666666666669,
                     "pos": 2,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "02:26:22",
                         "seconds": 146.29333333333332
                     },
@@ -32,6 +38,7 @@
                     "duration": 59.66666666666663,
                     "pos": 2,
                     "start": {
+                        "index": 2,
                         "minutes-seconds-frames": "03:26:60",
                         "seconds": 206.8
                     },
@@ -42,6 +49,7 @@
                     "duration": 113.62666666666667,
                     "pos": 3,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "04:26:35",
                         "seconds": 266.46666666666664
                     },
@@ -52,6 +60,7 @@
                     "duration": 225.60000000000008,
                     "pos": 4,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "06:20:07",
                         "seconds": 380.0933333333333
                     },
@@ -62,6 +71,7 @@
                     "duration": 210.2399999999999,
                     "pos": 5,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "10:05:52",
                         "seconds": 605.6933333333334
                     },
@@ -72,6 +82,7 @@
                     "duration": 185.33333333333337,
                     "pos": 6,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "13:35:70",
                         "seconds": 815.9333333333333
                     },
@@ -82,6 +93,7 @@
                     "duration": 188.69333333333338,
                     "pos": 7,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "16:41:20",
                         "seconds": 1001.2666666666667
                     },
@@ -92,6 +104,7 @@
                     "duration": 125.77333333333331,
                     "pos": 8,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "19:49:72",
                         "seconds": 1189.96
                     },
@@ -102,6 +115,7 @@
                     "duration": 92.89333333333343,
                     "pos": 8,
                     "start": {
+                        "index": 2,
                         "minutes-seconds-frames": "21:55:55",
                         "seconds": 1315.7333333333333
                     },
@@ -112,6 +126,7 @@
                     "duration": 173.10666666666657,
                     "pos": 9,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "23:28:47",
                         "seconds": 1408.6266666666668
                     },
@@ -122,6 +137,7 @@
                     "duration": 184.86666666666656,
                     "pos": 10,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "26:21:55",
                         "seconds": 1581.7333333333333
                     },
@@ -132,6 +148,7 @@
                     "duration": 86.22666666666669,
                     "pos": 11,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "29:26:45",
                         "seconds": 1766.6
                     },
@@ -142,6 +159,7 @@
                     "duration": 241.0400000000002,
                     "pos": 12,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "30:52:62",
                         "seconds": 1852.8266666666666
                     },
@@ -152,6 +170,7 @@
                     "duration": 100.49333333333334,
                     "pos": 13,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "34:53:65",
                         "seconds": 2093.866666666667
                     },
@@ -162,6 +181,7 @@
                     "duration": 7.9066666666667516,
                     "pos": 13,
                     "start": {
+                        "index": 2,
                         "minutes-seconds-frames": "36:34:27",
                         "seconds": 2194.36
                     },
@@ -172,6 +192,7 @@
                     "duration": 61.02666666666664,
                     "pos": 13,
                     "start": {
+                        "index": 3,
                         "minutes-seconds-frames": "36:42:20",
                         "seconds": 2202.266666666667
                     },
@@ -182,6 +203,7 @@
                     "duration": 194.73333333333312,
                     "pos": 14,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "37:43:22",
                         "seconds": 2263.2933333333335
                     },
@@ -192,6 +214,7 @@
                     "duration": 27.10666666666657,
                     "pos": 14,
                     "start": {
+                        "index": 2,
                         "minutes-seconds-frames": "40:58:02",
                         "seconds": 2458.0266666666666
                     },
@@ -202,6 +225,7 @@
                     "duration": 250.82666666666682,
                     "pos": 15,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "41:25:10",
                         "seconds": 2485.133333333333
                     },
@@ -212,6 +236,7 @@
                     "duration": 129.8666666666668,
                     "pos": 16,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "45:35:72",
                         "seconds": 2735.96
                     },
@@ -222,6 +247,7 @@
                     "duration": 73.70666666666648,
                     "pos": 16,
                     "start": {
+                        "index": 2,
                         "minutes-seconds-frames": "47:45:62",
                         "seconds": 2865.826666666667
                     },
@@ -232,6 +258,7 @@
                     "duration": 204.89333333333343,
                     "pos": 17,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "48:59:40",
                         "seconds": 2939.5333333333333
                     },
@@ -242,6 +269,7 @@
                     "duration": 231.5333333333333,
                     "pos": 18,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "52:24:32",
                         "seconds": 3144.4266666666667
                     },
@@ -252,6 +280,7 @@
                     "duration": 95.73333333333312,
                     "pos": 19,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "56:15:72",
                         "seconds": 3375.96
                     },
@@ -262,6 +291,7 @@
                     "duration": 206.03999999999996,
                     "pos": 20,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "57:51:52",
                         "seconds": 3471.693333333333
                     },
@@ -272,6 +302,7 @@
                     "duration": 236.9333333333334,
                     "pos": 21,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "61:17:55",
                         "seconds": 3677.733333333333
                     },
@@ -282,6 +313,7 @@
                     "duration": 165.33333333333348,
                     "pos": 22,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "65:14:50",
                         "seconds": 3914.6666666666665
                     },
@@ -292,6 +324,7 @@
                     "duration": 173.0666666666666,
                     "pos": 23,
                     "start": {
+                        "index": 1,
                         "minutes-seconds-frames": "68:00:00",
                         "seconds": 4080
                     },
@@ -302,6 +335,7 @@
                     "duration": 8.223333333333358,
                     "pos": 23,
                     "start": {
+                        "index": 2,
                         "minutes-seconds-frames": "70:53:05",
                         "seconds": 4253.066666666667
                     },
