@@ -6,7 +6,7 @@ Lûd cue
 
 Lûd is an opinionated browser based media player.
 
-Lûd cue is the .cue file parsing library used by Lûd.
+Lûd cue is the .cue file parsing library used by [Lûd](https://github.com/warpr/lud).
 
 Usage
 =====
