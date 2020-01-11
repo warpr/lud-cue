@@ -13,7 +13,7 @@ import chai from 'chai';
 const assert = chai.assert;
 
 suite('Types', () => {
-    test('MinutesSecondsFrames', () => {
+    test('Minutes:Seconds:Frames', () => {
         assert.isOk(MinutesSecondsFrames.guard('0:59:23'));
         assert.isOk(MinutesSecondsFrames.guard('0:59:69'));
         assert.isOk(MinutesSecondsFrames.guard('0:59:75'));
@@ -24,5 +24,40 @@ suite('Types', () => {
         // are also used as playlists for digital only releases, so allow much longer
         // total track offset/duration.
         assert.isOk(MinutesSecondsFrames.guard('803:32:00'));
+    });
+
+    test('MusicBrainz identifier', () => {
+        assert.isOk(
+            Mbid.artist.guard(
+                'https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76#_',
+            ),
+        );
+
+        // The Mbid type requires a trailing #_.
+        //
+        // This is to distinguish the identifier for the artist ('#_' suffix)
+        // from the the identifier of the musicbrainz web page about this
+        // artist (without the '#_' suffix).
+        //
+        // See also [httpRange-14](https://en.wikipedia.org/wiki/HTTPRange-14)
+        assert.isNotOk(
+            Mbid.artist.guard(
+                'https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76',
+            ),
+        );
+
+        // It's 2020, require https:// for everything.
+        assert.isNotOk(
+            Mbid.artist.guard(
+                'http://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76#_',
+            ),
+        );
+
+        // An artist MBID is not a release MBID.
+        assert.isNotOk(
+            Mbid.release.guard(
+                'https://musicbrainz.org/artist/45a663b5-b1cb-4a91-bff6-2bef7bbfdd76#_',
+            ),
+        );
     });
 });

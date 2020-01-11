@@ -1,6 +1,6 @@
 {
     "name": "lud-cue",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "lûd cue - a .cue file parsing library",
     "main": "lib/cue.mjs",
     "scripts": {
