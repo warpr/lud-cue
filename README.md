@@ -1,7 +1,8 @@
 Lûd cue
 =======
 
-![](https://github.com/warpr/lud-cue/workflows/test/badge.svg)
+![](https://github.com/warpr/lud-cue/workflows/tests/badge.svg)
+![](https://img.shields.io/badge/license-copyleft--next-blue)
 
 Lûd is an opinionated browser based media player.
 
