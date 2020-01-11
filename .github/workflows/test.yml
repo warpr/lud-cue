@@ -10,5 +10,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+
       - run: npm ci
-      - run: npm test
+
+      - name: where are we
+        working-directory: ${{ github.workspace }}
+        run: ls -la; pwd
+
+      - name: run tests
+        working-directory: ${{ github.workspace }}
+        run: npm test
