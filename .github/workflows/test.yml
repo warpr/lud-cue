@@ -13,10 +13,6 @@ jobs:
 
       - run: npm ci
 
-      - name: where are we
-        working-directory: ${{ github.workspace }}
-        run: ls -la; pwd
-
       - name: run tests
         working-directory: ${{ github.workspace }}
-        run: npm test
+        run: ls -lh bin/test; bin/test
