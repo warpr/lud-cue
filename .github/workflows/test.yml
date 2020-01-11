@@ -10,11 +10,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 13
-
       - run: sudo apt-get install zsh
-
       - run: npm ci
-
-      - name: run tests
-        working-directory: ${{ github.workspace }}
-        run: ls -lh bin/test; bin/test
+      - run: npm test
