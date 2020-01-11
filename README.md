@@ -1,6 +1,8 @@
 Lûd cue
 =======
 
+![](https://github.com/warpr/lud-cue/workflows/test/badge.svg)
+
 Lûd is an opinionated browser based media player.
 
 Lûd cue is the .cue file parsing library used by Lûd.
