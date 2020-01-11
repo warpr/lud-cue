@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 12
 
-      - run: apt-get install zsh
+      - run: sudo apt-get install zsh
 
       - run: npm ci
 
