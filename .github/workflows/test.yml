@@ -11,6 +11,8 @@ jobs:
         with:
           node-version: 12
 
+      - run: apt-get install zsh
+
       - run: npm ci
 
       - name: run tests
