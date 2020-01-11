@@ -8,7 +8,7 @@
 
 import * as log from '../lib/log.mjs';
 
-import { Artist, File, Mbid, Track } from '../lib/types.mjs';
+import { Artist, Disc, File, Mbid, Track } from '../lib/types.mjs';
 import {
     addTrackLengths,
     framesToSeconds,
@@ -36,12 +36,22 @@ function testCue() {
     const outputFile = givenFile + '.actual.json~';
 
     const body = fs.readFileSync(givenFile, { encoding: 'utf-8' });
-    const disc = parseCue(body);
+    const disc = parseCue(body, 'disc01.cue');
 
     fs.writeFileSync(outputFile, stringify(disc, { space: 2 }), { encoding: 'utf-8' });
 
     const expected = fs.readFileSync(expectedFile, { encoding: 'utf-8' });
     assert.deepEqual(disc, JSON.parse(expected));
+}
+
+function testCueTypes() {
+    const givenFile = __dirname + '/' + this.test.title;
+    const body = fs.readFileSync(givenFile, { encoding: 'utf-8' });
+    const disc = parseCue(body, 'disc01.cue');
+
+    assert.isOk(Track.guard(disc.files[0].tracks[0]));
+    assert.isOk(File.guard(disc.files[0]));
+    assert.isOk(Disc.guard(disc));
 }
 
 suite('Main', () => {
@@ -136,17 +146,10 @@ suite('Main', () => {
         */
     });
 
-    // suite('Sub test', () => {
-    //     test('valid artist', () => {
-    //         assert.doesNotThrow(() => Artist.check(artist));
-    //     });
-
-    //     test('valid track does not throw', () => {
-    //         assert.doesNotThrow(() => File.check(file));
-    //     });
-
-    //     test('invalid track throws', () => {
-    //         assert.throws(() => Track.check({ pos: 1, title: 'Ponle' }));
-    //     });
-    // });
+    suite('Cue Types', () => {
+        test('pc-and-strictly-kev.blechsdottir.cue', testCueTypes);
+        test('enigma.mcmxc-ad.cue', testCueTypes);
+        test('lijkenpikkers.mag-dat.cue', testCueTypes);
+        test('id-t.mysteryland-nl-2014-l-afrique.cue', testCueTypes);
+    });
 });

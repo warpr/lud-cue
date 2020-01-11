@@ -8,5 +8,5 @@ export NODE_PATH=`pwd`
 popd
 echo node path: $NODE_PATH
 
-# node --experimental-modules node_modules/.bin/mocha --ui tdd --reporter spec test/main.mjs
-node_modules/.bin/mocha --ui tdd test/main.mjs
+# node --experimental-modules node_modules/.bin/mocha --ui tdd --reporter spec
+node_modules/.bin/mocha --ui tdd

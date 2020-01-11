@@ -2,6 +2,8 @@
     "artist": "PC & Strictly Kev",
     "comments": ["mbid-to-cue v1"],
     "duration": 4261.29,
+    "barcode": null,
+    "pos": 1,
     "files": [
         {
             "filename": "disc1.m4a",
@@ -26,6 +28,7 @@
                     "artist": "Autechre",
                     "duration": 60.50666666666669,
                     "pos": 2,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "02:26:22",
@@ -37,6 +40,7 @@
                     "artist": "Autechre",
                     "duration": 59.66666666666663,
                     "pos": 2,
+                    "pregap": null,
                     "start": {
                         "index": 2,
                         "minutes-seconds-frames": "03:26:60",
@@ -48,6 +52,7 @@
                     "artist": "LFO",
                     "duration": 113.62666666666667,
                     "pos": 3,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "04:26:35",
@@ -59,6 +64,7 @@
                     "artist": "Plaid",
                     "duration": 225.60000000000008,
                     "pos": 4,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "06:20:07",
@@ -70,6 +76,7 @@
                     "artist": "Aphex Twin",
                     "duration": 210.2399999999999,
                     "pos": 5,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "10:05:52",
@@ -81,6 +88,7 @@
                     "artist": "Autechre",
                     "duration": 185.33333333333337,
                     "pos": 6,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "13:35:70",
@@ -92,6 +100,7 @@
                     "artist": "Jake Slazenger",
                     "duration": 188.69333333333338,
                     "pos": 7,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "16:41:20",
@@ -103,6 +112,7 @@
                     "artist": "Nightmares on Wax",
                     "duration": 125.77333333333331,
                     "pos": 8,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "19:49:72",
@@ -114,6 +124,7 @@
                     "artist": "Aphex Twin",
                     "duration": 92.89333333333343,
                     "pos": 8,
+                    "pregap": null,
                     "start": {
                         "index": 2,
                         "minutes-seconds-frames": "21:55:55",
@@ -125,6 +136,7 @@
                     "artist": "AFX",
                     "duration": 173.10666666666657,
                     "pos": 9,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "23:28:47",
@@ -136,6 +148,7 @@
                     "artist": "Freeform",
                     "duration": 184.86666666666656,
                     "pos": 10,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "26:21:55",
@@ -147,6 +160,7 @@
                     "artist": "The Black Dog",
                     "duration": 86.22666666666669,
                     "pos": 11,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "29:26:45",
@@ -158,6 +172,7 @@
                     "artist": "B12",
                     "duration": 241.0400000000002,
                     "pos": 12,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "30:52:62",
@@ -169,6 +184,7 @@
                     "artist": "Elecktroids",
                     "duration": 100.49333333333334,
                     "pos": 13,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "34:53:65",
@@ -180,6 +196,7 @@
                     "artist": "DJ Mink",
                     "duration": 7.9066666666667516,
                     "pos": 13,
+                    "pregap": null,
                     "start": {
                         "index": 2,
                         "minutes-seconds-frames": "36:34:27",
@@ -191,6 +208,7 @@
                     "artist": "Nightmares on Wax",
                     "duration": 61.02666666666664,
                     "pos": 13,
+                    "pregap": null,
                     "start": {
                         "index": 3,
                         "minutes-seconds-frames": "36:42:20",
@@ -202,6 +220,7 @@
                     "artist": "Jimi Tenor",
                     "duration": 194.73333333333312,
                     "pos": 14,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "37:43:22",
@@ -213,6 +232,7 @@
                     "artist": "Aphex Twin",
                     "duration": 27.10666666666657,
                     "pos": 14,
+                    "pregap": null,
                     "start": {
                         "index": 2,
                         "minutes-seconds-frames": "40:58:02",
@@ -224,6 +244,7 @@
                     "artist": "Nightmares on Wax",
                     "duration": 250.82666666666682,
                     "pos": 15,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "41:25:10",
@@ -235,6 +256,7 @@
                     "artist": "LFO",
                     "duration": 129.8666666666668,
                     "pos": 16,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "45:35:72",
@@ -246,6 +268,7 @@
                     "artist": "Mira Calix",
                     "duration": 73.70666666666648,
                     "pos": 16,
+                    "pregap": null,
                     "start": {
                         "index": 2,
                         "minutes-seconds-frames": "47:45:62",
@@ -257,6 +280,7 @@
                     "artist": "Red Snapper",
                     "duration": 204.89333333333343,
                     "pos": 17,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "48:59:40",
@@ -268,6 +292,7 @@
                     "artist": "Aphex Twin / DJ Food",
                     "duration": 231.5333333333333,
                     "pos": 18,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "52:24:32",
@@ -279,6 +304,7 @@
                     "artist": "Nightmares on Wax",
                     "duration": 95.73333333333312,
                     "pos": 19,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "56:15:72",
@@ -290,6 +316,7 @@
                     "artist": "Squarepusher",
                     "duration": 206.03999999999996,
                     "pos": 20,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "57:51:52",
@@ -301,6 +328,7 @@
                     "artist": "Mike Ink",
                     "duration": 236.9333333333334,
                     "pos": 21,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "61:17:55",
@@ -312,6 +340,7 @@
                     "artist": "Aphex Twin",
                     "duration": 165.33333333333348,
                     "pos": 22,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "65:14:50",
@@ -323,6 +352,7 @@
                     "artist": "Jake Slazenger",
                     "duration": 173.0666666666666,
                     "pos": 23,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "68:00:00",
@@ -334,6 +364,7 @@
                     "artist": "Jake Slazenger",
                     "duration": 8.223333333333358,
                     "pos": 23,
+                    "pregap": null,
                     "start": {
                         "index": 2,
                         "minutes-seconds-frames": "70:53:05",

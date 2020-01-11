@@ -2,6 +2,8 @@
     "artist": "ID&T",
     "comments": ["lûd cue v1"],
     "duration": 31105.384488,
+    "barcode": null,
+    "pos": 1,
     "files": [
         {
             "filename": "disc01.01.mp3",
@@ -11,6 +13,7 @@
                     "artist": "Cincity",
                     "duration": null,
                     "pos": 1,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",
@@ -28,6 +31,7 @@
                     "artist": "Madison Groove",
                     "duration": null,
                     "pos": 2,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",
@@ -45,6 +49,7 @@
                     "artist": "Morelasoul",
                     "duration": null,
                     "pos": 3,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",
@@ -62,6 +67,7 @@
                     "artist": "Soulroots",
                     "duration": null,
                     "pos": 4,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",
@@ -79,6 +85,7 @@
                     "artist": "R-Jay",
                     "duration": null,
                     "pos": 5,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",
@@ -96,6 +103,7 @@
                     "artist": "Rico Rosa",
                     "duration": null,
                     "pos": 6,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",
@@ -113,6 +121,7 @@
                     "artist": "Pascal Morais",
                     "duration": null,
                     "pos": 7,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",
@@ -130,6 +139,7 @@
                     "artist": "Rancido",
                     "duration": null,
                     "pos": 8,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "00:00:00",

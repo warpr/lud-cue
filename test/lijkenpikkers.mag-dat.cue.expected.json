@@ -3,6 +3,8 @@
     "comments": ["lûd cue v1"],
     "title": "Mag dat?",
     "duration": 2830.653,
+    "barcode": null,
+    "pos": 1,
     "mbid": "https://musicbrainz.org/release/2fddaa2c-61eb-46d4-abf2-1ba80c59e487#_",
     "files": [
         {
@@ -14,6 +16,7 @@
                     "title": "Heb je al gehoord",
                     "duration": 119.93333333333334,
                     "pos": 1,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "0:00:00",
@@ -25,6 +28,7 @@
                     "title": "Op je hoeden",
                     "duration": 335.4533333333333,
                     "pos": 2,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "1:59:70",
@@ -36,6 +40,7 @@
                     "title": "Hallisunaties",
                     "duration": 296.85333333333335,
                     "pos": 3,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "7:35:29",
@@ -47,6 +52,7 @@
                     "title": "Eng doen",
                     "duration": 262.84000000000003,
                     "pos": 4,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "12:32:18",
@@ -58,6 +64,7 @@
                     "title": "Het gaat niet over rozen",
                     "duration": 264.38666666666666,
                     "pos": 5,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "16:55:06",
@@ -69,6 +76,7 @@
                     "title": "De slechtste",
                     "duration": null,
                     "pos": 6,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "21:19:35",
@@ -86,6 +94,7 @@
                     "title": "Klappen",
                     "duration": 367.8933333333333,
                     "pos": 7,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "0:00:00",
@@ -97,6 +106,7 @@
                     "title": "Wijven",
                     "duration": 414.80000000000007,
                     "pos": 8,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "6:07:67",
@@ -108,6 +118,7 @@
                     "title": "Syndroom van touret",
                     "duration": 152.61333333333323,
                     "pos": 9,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "13:02:52",
@@ -119,6 +130,7 @@
                     "title": "Laat me met rust",
                     "duration": 264.74666666666667,
                     "pos": 10,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "15:35:23",
@@ -130,6 +142,7 @@
                     "title": "Het doek valt",
                     "duration": null,
                     "pos": 11,
+                    "pregap": null,
                     "start": {
                         "index": 1,
                         "minutes-seconds-frames": "20:00:04",
