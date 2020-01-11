@@ -1,6 +1,6 @@
 {
     "name": "lud-cue",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "lûd cue - a .cue file parsing library",
     "main": "lib/cue.mjs",
     "scripts": {
@@ -38,7 +38,7 @@
         "import-sort-style-module": "^6.0.0",
         "json-stable-stringify": "^1.0.1",
         "lint-staged": "^9.5.0",
-        "mocha": "github:giltayar/mocha#node-esm-support",
+        "mocha": "github:mochajs/mocha#v7.0.0-esm1",
         "nodemon": "^2.0.2",
         "prettier": "^1.19.1"
     },
