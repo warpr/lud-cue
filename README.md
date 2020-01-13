@@ -8,13 +8,30 @@ Lûd is an opinionated browser based media player.
 
 Lûd cue is the .cue file parsing library used by [Lûd](https://github.com/warpr/lud).
 
-Usage
-=====
+Usage (browser)
+===============
 
 ```js
-import { parseCue } from 'lud-cue/lib/cue.mjs';
-import { Disc } from 'lud-cue/lib/types.mjs';
+import * as cue from './dist/lud-cue.mjs';
 
+const { parseCue } = cue;
+const { Disc } = cue.types;
+
+// cueFile is the body of a .cue file as a string
+const parsed = parseCue(cueFile);
+
+// types can be checked at run-time with [runtypes](https://github.com/pelotom/runtypes)
+const disc = Disc.check(parsed);
+```
+
+Usage (node js)
+===============
+
+```js
+import * as cue from 'lud-cue';
+
+const { parseCue } = cue;
+const { Disc } = cue.types;
 
 // cueFile is the body of a .cue file as a string
 const parsed = parseCue(cueFile);
