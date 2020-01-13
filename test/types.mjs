@@ -6,10 +6,11 @@
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
  */
 
-import { Artist, AudioOffset, File, Mbid, MinutesSecondsFrames, Track } from '../lib/types.mjs';
+import * as cue from '../lib/cue.mjs';
 
 import chai from 'chai';
 
+const { Artist, AudioOffset, File, Mbid, MinutesSecondsFrames, Track } = cue.types;
 const assert = chai.assert;
 
 suite('Types', () => {

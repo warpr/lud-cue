@@ -1,0 +1,7 @@
+#!/usr/bin/zsh
+
+DIR="$0:A:h"
+cd "$DIR/.."
+
+npm run build
+

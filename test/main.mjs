@@ -6,16 +6,8 @@
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
  */
 
+import * as cue from '../lib/cue.mjs';
 import * as log from '../lib/log.mjs';
-
-import { Artist, Disc, File, Mbid, Track } from '../lib/types.mjs';
-import {
-    addTrackLengths,
-    framesToSeconds,
-    normalizeMbid,
-    parseCue,
-    removeQuotes,
-} from '../lib/cue.mjs';
 
 import chai from 'chai';
 import { dirname } from 'path';
@@ -24,6 +16,9 @@ import fs from 'fs';
 import stringify from 'json-stable-stringify';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
+
+const { Artist, Disc, File, Mbid, Track } = cue.types;
+const { addTrackLengths, framesToSeconds, normalizeMbid, parseCue, removeQuotes } = cue;
 const assert = chai.assert;
 
 log.setVerbose(false);

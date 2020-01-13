@@ -4,6 +4,7 @@
     "description": "lûd cue - a .cue file parsing library",
     "main": "lib/cue.mjs",
     "scripts": {
+        "build": "rollup -c",
         "test": "bin/test"
     },
     "lint-staged": {
@@ -31,6 +32,8 @@
         }
     },
     "devDependencies": {
+        "@rollup/plugin-commonjs": "^11.0.1",
+        "@rollup/plugin-node-resolve": "^7.0.0",
         "chai": "^4.2.0",
         "husky": "^3.1.0",
         "import-sort-cli": "^6.0.0",
@@ -40,7 +43,8 @@
         "lint-staged": "^9.5.0",
         "mocha": "github:mochajs/mocha#v7.0.0-esm1",
         "nodemon": "^2.0.2",
-        "prettier": "^1.19.1"
+        "prettier": "^1.19.1",
+        "rollup": "^1.29.0"
     },
     "dependencies": {
         "runtypes": "^4.0.3"
