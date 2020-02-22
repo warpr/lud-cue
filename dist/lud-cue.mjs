@@ -1160,6 +1160,8 @@ var lib_5 = lib.Brand;
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
+ *
+ *   SPDX-License-Identifier: copyleft-next-0.3.1
  */
 
 const {
@@ -1278,6 +1280,8 @@ var import_types = /*#__PURE__*/ Object.freeze({
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
+ *
+ *   SPDX-License-Identifier: copyleft-next-0.3.1
  */
 
 if (typeof window !== 'undefined') {
@@ -1332,6 +1336,8 @@ function error() {
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of copyleft-next 0.3.1.  See copyleft-next-0.3.1.txt.
+ *
+ *   SPDX-License-Identifier: copyleft-next-0.3.1
  */
 
 const runtypes = import_runtypes;

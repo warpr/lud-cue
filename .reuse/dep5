@@ -1,0 +1,28 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: KAM
+Upstream-Contact: Kuno Woudt <kuno@frob.nl>
+Source: https://github.com/warpr/kam/
+
+Files: copyleft-next-0.3.1.txt
+Copyright: 2016 Public Domain
+License: CC0-1.0
+
+Files: package.json package-lock.json
+Copyright: 2020 Kuno Woudt <kuno@frob.nl>
+License: copyleft-next-0.3.1
+
+Files: composer.json composer.lock
+Copyright: 2020 Kuno Woudt <kuno@frob.nl>
+License: copyleft-next-0.3.1
+
+Files: test/*.cue test/*.json
+Copyright: 2020 Kuno Woudt <kuno@frob.nl>
+License: copyleft-next-0.3.1
+
+Files: .importsortrc.json .prettierrc.json
+Copyright: 2020 Kuno Woudt <kuno@frob.nl>
+License: copyleft-next-0.3.1
+
+Files: dist/lud-cue.mjs
+Copyright: 2020 Kuno Woudt <kuno@frob.nl>
+License: copyleft-next-0.3.1
