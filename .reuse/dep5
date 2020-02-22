@@ -26,3 +26,8 @@ License: copyleft-next-0.3.1
 Files: dist/lud-cue.mjs
 Copyright: 2020 Kuno Woudt <kuno@frob.nl>
 License: copyleft-next-0.3.1
+
+Files: node_modules/.empty
+Copyright: 2020 Kuno Woudt <kuno@frob.nl>
+License: copyleft-next-0.3.1
+
