@@ -1,6 +1,5 @@
 REM COMMENT mbid-to-cue v1
 REM DATE 1996-09-23
-REM LUD_DURATION_IN_SECONDS 4261.290000
 PERFORMER "PC & Strictly Kev"
 TITLE "Blechsdöttir: The Nexus Phase"
 REM MUSICBRAINZ_ALBUM_ID da8ebcc3-3da5-4cc8-be41-9e82ba17bea6

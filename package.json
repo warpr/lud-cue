@@ -1,6 +1,6 @@
 {
     "name": "lud-cue",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "lûd cue - a .cue file parsing library",
     "main": "lib/cue.mjs",
     "scripts": {
@@ -25,7 +25,7 @@
     },
     "author": "Kuno Woudt <kuno@frob.nl>",
     "license": "copyleft-next-0.3.1",
-    "repository": "https://github.com/warpr/lud.git",
+    "repository": "https://github.com/warpr/lud-cue.git",
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged"

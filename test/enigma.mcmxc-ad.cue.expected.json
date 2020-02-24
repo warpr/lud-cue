@@ -2,7 +2,6 @@
     "artist": "Enigma",
     "barcode": "077778622420",
     "comments": ["lûd cue v1"],
-    "duration": 2420.824,
     "barcode": "077778622420",
     "pos": 1,
     "files": [
@@ -137,7 +136,7 @@
                 },
                 {
                     "artist": "Enigma",
-                    "duration": 245.82400000000007,
+                    "duration": null,
                     "pos": 7,
                     "pregap": null,
                     "start": {

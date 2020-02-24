@@ -1,7 +1,6 @@
 {
     "artist": "PC & Strictly Kev",
     "comments": ["mbid-to-cue v1"],
-    "duration": 4261.29,
     "barcode": null,
     "pos": 1,
     "files": [
@@ -362,7 +361,7 @@
                 },
                 {
                     "artist": "Jake Slazenger",
-                    "duration": 8.223333333333358,
+                    "duration": null,
                     "pos": 23,
                     "pregap": null,
                     "start": {
